@@ -3,8 +3,8 @@ body{
 }
 
 .gambar img{
-		height:200px;
-    border: 1px solid white;
+		height: 200px;
+		border: 1px solid white;
 		position: relative;
 		transition: all .3s ease;
 		/*chrome*/

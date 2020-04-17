@@ -1,0 +1,36 @@
+body{
+    background-color: lightsteelblue;
+}
+
+thead{
+    background-color: burlywood;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 37px;
+}
+
+table{
+    background-color: lightgoldenrodyellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+thead{
+    font-weight: bold; 
+    text-align: center;
+}
+
+img{
+    height:100px;
+}
+
+tbody{
+    text-align: center;
+}
+.container{
+    width: 800px;
+    margin: 0px auto 0px auto;
+}
+

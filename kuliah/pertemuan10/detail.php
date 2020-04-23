@@ -1,6 +1,11 @@
 <?php
 require 'functions.php';
 
+if (!isset($_GET['id'])) {
+  header("Location: latihan3.php");
+  exit;
+}
+
 $id = $_GET['id'];
 
 $m = query("SELECT * FROM mahasiswa WHERE id = $id");

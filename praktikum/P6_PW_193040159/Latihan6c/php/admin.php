@@ -57,7 +57,9 @@ $alat_musik = query("SELECT * FROM alat_musik");
   <div class="container">
     <h1>ALAT MUSIK TRADISIONAL</h1>
     <div class="add">
-      <a href="tambah.php">Tambah Data</a>
+      <a href="tambah.php">
+        <button style="width: auto">Tambah Data</button>
+      </a>
     </div> <br>
     <table border="1" cellpadding="13" cellspacing="0">
       <tr>

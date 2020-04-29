@@ -65,7 +65,9 @@ if (isset($_GET['cari'])) {
   <div class="container">
     <h1>ALAT MUSIK TRADISIONAL</h1>
     <div class="add">
-      <a href="tambah.php">Tambah Data</a>
+      <a href="tambah.php">
+        <button style="width: auto">Tambah Data</button>
+      </a>
     </div>
 
     <form action="" method="GET">

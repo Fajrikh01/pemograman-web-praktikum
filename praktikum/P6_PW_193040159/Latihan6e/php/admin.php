@@ -85,6 +85,15 @@ if (isset($_GET['cari'])) {
         <th>Sumber Bunyi</th>
         <th>Cara Memainkan</th>
       </tr>
+
+      <?php if (empty($alat_musik)) : ?>
+        <tr>
+          <td colspan="7">
+            <p style="color: red; font-style:italic">data tidak ditemukan!</p>
+          </td>
+        </tr>
+      <?php endif; ?>
+
       <?php $no = 1; ?>
       <?php foreach ($alat_musik as $am) : ?>
         <tr>

@@ -1,27 +1,15 @@
-<?php
-// session_start();
-
-// if (!isset($_SESSION["username"])) {
-//   header("Location: login.php");
-//   exit;
-// }
-
-// require 'functions.php';
-
-// if (isset($_GET['cari'])) {
-//   $keyword = $_GET['keyword'];
-//   $alat_musik = query("SELECT * FROM alat_musik WHERE
-//                  nama_alat_musik LIKE '%$keyword%' OR
-//                  provinsi LIKE '%$keyword%' OR
-//                  sumber_bunyi LIKE '%$keyword%' OR
-//                  cara_memainkan LIKE '%$keyword%'");
-// } else {
-//   $alat_musik = query("SELECT * FROM alat_musik");
-// }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
+
+<style>
+  html {
+    background: url(tubes/tubes_193040159/assets/bg/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+</style>
 
 <head>
   <meta charset="UTF-8">
@@ -52,7 +40,7 @@
     <nav class="blue lighten-2">
       <div class="container">
         <div class="nav-wrapper">
-          <a href="#home" class="brand-logo"><i class="material-icons">cloud</i>Home</a>
+          <a href="#home" class="brand-logo"><i class="material-icons">cloud</i>Fajri Khoirunnisa</a>
           <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
       </div>
@@ -62,7 +50,7 @@
 
   <!-- card -->
   <div class="container">
-    <h3 class="padding: 25px 0 25px 0;">DAFTAR INDEX</h3>
+    <h3>DAFTAR INDEX</h3>
     <div class="row">
       <div class="col s12 m4">
         <div class="card center">
@@ -109,6 +97,11 @@
     </div>
   </div>
   <!-- Akhir Table -->
+
+  <!-- footer -->
+  <footer class="blue lighten-2 white-text center">
+    <p class="flow-text">&copy; Copyright 2020.</p>
+  </footer>
 
 
   <!--JavaScript at end of body for optimized loading-->

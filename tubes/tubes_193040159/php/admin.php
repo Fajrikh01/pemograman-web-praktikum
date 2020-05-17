@@ -54,7 +54,7 @@ if (isset($_GET['cari'])) {
     <nav class="blue lighten-2">
       <div class="container">
         <div class="nav-wrapper">
-          <a href="#home" class="brand-logo"><i class="material-icons">cloud</i>Home</a>
+          <a href="#home" class="brand-logo"><i class="material-icons">cloud</i>Fajri Khoirunnisa</a>
           <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="tambah.php"><i class="material-icons left">add</i>Tambah Data</a></li>
@@ -125,6 +125,10 @@ if (isset($_GET['cari'])) {
   </section>
   <!-- Akhir Table -->
 
+  <!-- footer -->
+  <footer class="blue lighten-2 white-text center">
+    <p class="flow-text">&copy; Copyright 2020.</p>
+  </footer>
 
   <!--JavaScript at end of body for optimized loading-->
   <script type="text/javascript" src="../js/materialize.min.js"></script>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 16 Apr 2020 pada 11.22
+-- Waktu pembuatan: 17 Bulan Mei 2020 pada 07.07
 -- Versi server: 10.1.37-MariaDB
 -- Versi PHP: 7.3.0
 
@@ -52,7 +52,31 @@ INSERT INTO `alat_musik` (`id`, `gambar`, `nama_alat_musik`, `provinsi`, `sumber
 (8, 'kacapi.jpg', 'Kecapi', 'Sulawesi Barat', 'Kordofon', 'Dimainkan dengan cara dipetik'),
 (9, 'gong.jpg', 'Gong', 'Jawa Barat', 'Membranfon', 'Dipukul menggunakan alat pukul yang didesain secara khusus'),
 (10, 'genggong.jpg', 'Genggong', 'Sumatera Selatan', 'Aerofon', 'Dimainkan dengan cara ditiup'),
-(11, 'kompang.jpg', 'Kompang', 'Lampung', 'Kordofon', 'Dimainkan dengan cara dipukul');
+(11, 'kompang.jpg', 'Kompang', 'Lampung', 'Kordofon', 'Dimainkan dengan cara dipukul'),
+(12, 'calung.jpg', 'Calung', 'Jawa Barat', 'Idiofon', 'Memukul ruas tabung bambu');
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `user`
+--
+
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL,
+  `username` varchar(64) NOT NULL,
+  `password` varchar(256) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data untuk tabel `user`
+--
+
+INSERT INTO `user` (`id`, `username`, `password`) VALUES
+(3, 'jae', '$2y$10$F36x1mH1.6Vb3LkXulEE.uF17vNmjX0KWbhGli6r9QZc14QpT6AFe'),
+(4, 'eajpark', '$2y$10$qv/YbcvEyNQGHW02WzV2QODw9FI5W3eCuh726OhLRwFcVnt4TNKi2'),
+(5, 'alliwannado', '$2y$10$cd3qScwlJD.apshIo0LuKeCKbznMR2M58L6Fy1Q86icTui/KZNK1S'),
+(6, 'jung', '$2y$10$QwOVtR81H8/DjkeFP04O0.rgUJbhsHOSafHsauEWNBDHuRbEBsQ92'),
+(7, 'kangceoding', '$2y$10$Liy7qpPfDyBnFdQLIHOCPug23tftU23GNGaFQYAJNVZb5IkFCauW2');
 
 --
 -- Indexes for dumped tables
@@ -65,6 +89,12 @@ ALTER TABLE `alat_musik`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indeks untuk tabel `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
@@ -72,7 +102,13 @@ ALTER TABLE `alat_musik`
 -- AUTO_INCREMENT untuk tabel `alat_musik`
 --
 ALTER TABLE `alat_musik`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+
+--
+-- AUTO_INCREMENT untuk tabel `user`
+--
+ALTER TABLE `user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

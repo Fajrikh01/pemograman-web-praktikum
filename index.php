@@ -50,7 +50,7 @@
 
   <!-- card -->
   <div class="container">
-    <h3>DAFTAR INDEX</h3>
+    <h3 class="light center grey-text text-darken-4">DAFTAR INDEX</h3>
     <div class="row">
       <div class="col s12 m4">
         <div class="card center">

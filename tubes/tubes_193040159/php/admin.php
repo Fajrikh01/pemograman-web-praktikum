@@ -54,7 +54,7 @@ if (isset($_GET['cari'])) {
     <nav class="blue lighten-2">
       <div class="container">
         <div class="nav-wrapper">
-          <a href="#home" class="brand-logo"><i class="material-icons">cloud</i>Fajri Khoirunnisa</a>
+          <a href="#home" class="brand-logo"><i class="material-icons">cloud</i>FK.</a>
           <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="tambah.php"><i class="material-icons left">add</i>Tambah Data</a></li>
